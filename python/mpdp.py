@@ -24,7 +24,7 @@ def insertf():
             TextChatA.insert(tk.END,el,'tiret')
         else:
             TextChatA.insert(tk.END,el.capitalize())
-        txt += el
+        txt += el.capitalize()
     copy2clip(txt)
     TextChatA.insert(tk.END,"\nCopié dans le presse papier\n",'clipboard')
     #TextChatA.insert(tk.END, "\n")
